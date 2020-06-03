@@ -1,0 +1,44 @@
+.footer-logos {
+    background: map-get($colors , gradient );
+    padding: 5rem 0 5rem 0;
+}
+
+.footer-logos img {
+    opacity: 0.5; 
+}
+
+.display {
+    display: none;
+}
+
+.footer-footer {
+    background-color: map-get($colors , footer );
+    padding: 5rem 0 5rem 0;
+}
+
+.footer-footer h3 {
+    color: map-get($colors , txt-clair );
+    font-weight: normal;
+}
+
+.footer-footer p {
+    line-height: 1.7;
+}
+
+.margin-footer {
+    margin: 2rem 0.5rem 2rem 0rem;
+}
+
+.footer-aboutme p {
+    padding-bottom: 1rem;
+}
+
+small a {
+    color: map-get($colors , second );
+    text-decoration: none;
+}
+
+.footer-social-a i {
+    margin: 2rem 0.5rem 2rem 0.5rem;
+    color: map-get($colors , txt-clair);
+}

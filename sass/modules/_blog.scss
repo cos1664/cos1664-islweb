@@ -1,0 +1,406 @@
+main {
+    background-color: #faf9ff;
+}
+
+.blog-banner {
+    background-image:  url(../images/blog/blog-home-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 600px;
+    min-width: 100%;
+}
+
+.blog-banner-layout {
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    height: 600px;
+}
+
+.blog-banner h1 {
+    text-align: center;
+    padding-top: 100px;
+    color: map-get($colors , txt-clair );
+}
+
+.blog-banner p {
+    color: map-get($colors , txt-clair );
+    text-align: center;
+}
+
+.blog-banner .bouton {
+    text-align: center;
+}
+
+.blog-banner button {
+    background: map-get($colors , txt-clair );
+    color: map-get($colors , txt-fonce );
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    border: none;
+    font-weight: 1000;
+}
+
+.blog-themes {
+    margin-top: 5rem;
+}
+
+.blog-themes-image {
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+.blog-themes-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.middle {
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    max-width: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.blog-themes-image:hover .blog-themes-image img {
+    opacity: 1;
+}
+
+.blog-themes-image:hover .middle {
+    opacity: 0;
+}
+  
+.textesocial {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+}
+
+.textesocial h3 {
+    color: map-get($colors , txt-clair );
+}
+
+.textesocial p {
+    font-size: 0.8rem;
+    margin: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid white;
+}
+
+
+
+.post-btn {
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    background: white;
+    color: map-get($colors , txt-fonce );
+}
+
+.post-btn:hover {
+    background: map-get($colors , second );
+    color: map-get($colors , txt-clair );
+}
+
+.blog-articles {
+    margin-bottom: 8rem;
+}
+
+.post-texte {
+    margin-bottom: 3rem;
+}
+
+
+.post-infos {
+    font-size: 0.8rem;
+}
+
+.post-infos-category {
+    color: map-get($colors , txt-fonce );
+    margin-bottom: 0.5rem;
+}
+
+.post-infos-user, .post-infos-date, .post-infos-view, .post-infos-comment {
+    line-height: 1.7rem;
+}
+
+.post-infos .lnr {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    color: map-get($colors , txt-fonce );
+}
+
+.post-infos-date time {
+    margin: 0;
+}
+
+.post {
+    padding-bottom: 5rem;
+}
+
+.blog-articles-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-articles-pagination a {
+    text-decoration: none;
+    padding: 1rem;
+    color: map-get($colors , txt );
+    background-color: none;
+}
+
+.blog-articles-pagination a.active {
+    color: map-get($colors , txt-clair);
+    background-color: map-get($colors , second );
+}
+
+aside {
+    border: 1px solid map-get($colors , contour );
+    background: map-get($colors , aside-bg-color );
+    margin: 5rem 0 1rem 0rem;
+}
+
+aside h2 {
+    padding: 0.7rem;
+    background-color: map-get($colors , second );
+    font-size: 17px;
+    color: map-get($colors , txt-clair );
+    display: block;
+}
+
+.blog-bandeau {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.blog-search {
+    padding: 3rem 0rem 2rem 0rem;
+    border-bottom: 1px solid map-get($colors , contour );
+}
+
+.blog-search form, .blog-search input {
+    background: map-get($colors , second );
+    border: none;
+    height: 2.5rem;
+    color: map-get($colors , txt-clair );
+    border-radius: 20px;
+    padding: 0 1rem 0 0.5rem;
+}
+
+span.lnr.lnr-magnifier {
+    margin-top: 10px;
+    float: right;
+}
+
+.blog-articles {
+    margin-top: 5rem;
+}
+
+.blog-author img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 0 3rem 0;
+}
+
+.blog-author {
+    text-align: center;
+    border-bottom: 1px solid map-get($colors , contour );
+    padding-bottom: 3rem;
+}
+
+.blog-author-name p {
+    font-size: 17px;
+    font-weight: 800;
+    color: map-get($colors , txt-fonce );
+    padding-bottom: 0.5rem;
+}
+
+.blog-author-follow i {
+    color: map-get($colors , txt-fonce );
+    font-size: 1rem;
+}
+
+.blog-popularpost section {
+    margin: 2rem 0 3rem 0;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid map-get($colors , contour );
+}
+
+.blog-popularpost article {
+    margin: 1rem 0 0 0;
+}
+
+.blog-popularpost h3 {
+    font-size: 1rem;
+    padding: 0 0 0 1rem;
+}
+
+.blog-popularpost h3 a {
+    text-decoration: none;
+    color: map-get($colors , txt-fonce );
+}
+
+.blog-bandeau time-ago {
+    padding: 0 0 0 1rem;
+    margin: 0;
+}
+
+.blog-encartpub {
+    margin: 2rem 0 3rem 0;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid map-get($colors , contour );
+}
+
+.blog-postcat tr {
+    border-top: 1px  map-get($colors , contour ) dotted;
+    height: 3rem;
+}
+
+.blog-postcat table {
+    table-layout: unset;;
+    width: 100%;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid map-get($colors , contour );
+}
+
+.blog-postcat table td:nth-child(2) {
+    text-align: right;
+}
+
+.blog-postcat table td {
+    border-bottom: 1px  map-get($colors , contour ) dotted;
+}
+
+.blog-newsletter {
+    margin: 2rem 0 3rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid map-get($colors , contour );
+}
+
+.blog-newsletter h2 {
+    margin-bottom: 2rem;
+}
+
+.blog-newsletter p {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.blog-newsletter input {
+    height: 2.5rem;
+    margin-bottom: 2rem;
+    display: block;
+    float: left;
+}
+
+
+
+button.blog-newsletter-btn {
+    height: 2.5rem;
+    font-size: 10px;
+    background: map-get($colors , second );
+    color: map-get($colors , txt-clair );
+    border: none;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+
+
+.blog-tag span {
+    line-height: 3rem;
+    padding: 0.5rem 0.5rem;
+    border: 1px solid map-get($colors , contour );
+    background: map-get($colors , bg-color );
+}
+
+.blog-tag h2 {
+    margin-bottom: 2rem;
+}
+
+.blog-tag {
+    margin-bottom: 3rem;
+}
+
+.blog-tag a {
+    text-decoration: none;
+    color: map-get($colors , txt );
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+@media screen and (min-width: 768px) {
+
+    .blog-banner h1 {
+        text-align: center;
+        padding-top: 200px;
+        color: map-get($colors , txt-clair );
+    }
+
+    .blog-themes-image.social {
+        margin-right: 1rem;
+    }
+    
+    .blog-themes-image.politics {
+        margin: 0 0.5rem 0 0.5rem;
+    }
+    
+    .blog-themes-image.food {
+        margin-left: 1rem;
+    }
+
+    .blog-articles {
+        margin-right: 1.5rem;
+    }
+
+    
+    .blog-articles .post {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: none;
+    }
+
+    .post-infos {
+        text-align: center;
+    }
+    
+}
+
+
+@media screen and (min-width: 992px) {
+
+    .blog-banner h1 {
+        text-align: center;
+        padding-top: 300px;
+        color: map-get($colors , txt-clair );
+    }
+
+    .post-infos-category {
+        margin: 2rem 0 2rem 0;
+    }
+
+    .post-infos-category {
+        padding-top: 0;
+    }
+}
+
+

@@ -1,0 +1,218 @@
+
+
+.post-infos-follow i {
+    font-size: 12px;
+    color: map-get($colors , txt-fonce );
+    margin: 2rem 0.2rem 2rem 0.2rem;
+}
+
+.post-texte p {
+    margin-bottom: 1rem;
+}
+
+.articles.post.astronomy {
+    margin: 5rem 0 0 0;
+    border-bottom: 1px solid map-get($colors , contour );
+}
+
+section.articles {
+    margin-top: 5rem;
+}
+
+.article-prevnext {
+    margin: 2rem 0;
+}
+
+.article-prevnext a {
+    text-decoration: none;
+}
+
+.article-prevnext p {
+    color: map-get($colors , txt );
+}
+
+.article-prevnext h3 {
+    padding: 1rem 0 1rem 0;
+}
+
+.article-prevnext-texte {
+    margin: 0 1rem;
+}
+
+article.post.astronomy h3 {
+    padding-top: 1rem;
+}
+
+.post-infos-category {
+    padding-top: 1rem;
+}
+
+.post-infos .lnr {
+    margin-left: 0.5rem;
+}
+
+.article-encart {
+    background-color: map-get($colors , bg-color );
+}
+
+.article-encart p {
+    padding: 2rem;
+}
+
+.article-photosillustration {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.article-photosillustration img {
+    width: 48%;
+}
+
+.article-prevnext-next {
+    text-align: right;
+}
+
+.article-comments {
+    border: 1px solid map-get($colors , contour );
+    background: map-get($colors , encart-com-bg-color );
+    margin-bottom: 2rem;
+}
+
+p.article-comments-title {
+    color: map-get($colors , txt-fonce );
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.article-commentaire {
+    margin: 1rem 0.5rem 3rem 0.5rem;
+}
+
+.article-commentaire-infos-comment-nom {
+    color: map-get($colors , txt-fonce );
+    font-weight: 600;
+}
+
+.article-commentaire-infos-comment {
+    margin-left: 2rem;
+}
+
+.article-commentaire-infos-comment time {
+    color: map-get($colors , contour);
+    margin: 0;
+}
+
+.article-commentaire-infos-comment-commentaire {
+    padding-top: 1rem;
+    font-size: 0.8rem;
+}
+
+button.reply {
+    background: map-get($colors , bg-color );
+    color: map-get($colors , txt-fonce );
+    border: 1px solid map-get($colors , contour );
+    padding: 8px 16px;
+    font-weight: 600;
+    float: right;
+    margin-top: 0;
+}
+
+.article-commentaire.elsie, .article-commentaire.annie {
+    margin-left: 2rem;
+}
+
+.article-leavecomment {
+    background: map-get($colors , bg-color );
+    border: 1px solid map-get($colors , contour );
+}
+
+.article-leavecomment h3 {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.article-leavecomment-formulaire input {
+    display: block;
+    width: 90%;
+    height: 4rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1rem;
+    border: none;
+}
+
+.article-leavecomment-formulaire input::placeholder {
+    font-size: 0.9rem;
+    color: map-get($colors , txt );
+}
+
+.article-leavecomment-formulaire textarea {
+    display: block;
+    width: 90%;
+    height: 10rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    border: none;
+}
+
+.article-leavecomment-formulaire textarea::placeholder {
+    font-size: 0.9rem;
+    color: map-get($colors , txt );
+    font-family: map-get($fonts , main );
+}
+
+
+
+button.post-comment {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    background: map-get($colors , second );
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .post-infos {
+        text-align: right;
+        margin-right: 1rem;
+    }
+
+    .articles-post.astronomy {
+        margin: 5rem 1rem 0 0;
+    }
+
+    .article-prevnext {
+        margin: 2rem 1rem 2rem 0;
+    }
+
+    .article-prevnext h3 {
+        padding: 0rem 0 1rem 0;
+    }   
+
+    .article-comments {
+        margin-right: 1rem;
+    }
+
+    .article-leavecomment {
+        margin-right: 1rem;
+        margin-bottom: 5rem;
+        background: map-get($colors , encart-com-bg-color);
+    }
+
+    .post-infos-category {
+        margin: 1.5rem 0 2rem 0;
+        padding-top: 0;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    
+}
